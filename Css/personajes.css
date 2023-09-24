@@ -2,48 +2,56 @@
     margin: 0;
     padding: 0;
 }
-
 body{
-    background-image:url(../Multimedia/Inicio.jpg);
+    background-image: url(../Multimedia/Personajes.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
-
 #title{
     color: #FFF;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     font-family: Inter;
     font-size: 45px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    margin-left: 40%;
-    margin-top: 10px;
+    margin-left: 5%;
+}
+
+
+#back{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration-line: underline;
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: 3%;
+    margin-right: 5%;
 }
 
 a{
-    text-decoration-line:none;
-    margin-left: 8.5%;
+    color: #FFF;
+    text-decoration-line: none;
+}
+
+#list{
     color: #FFF;
     font-family: Inter;
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    margin-top: 8%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px 20px;
 }
-
-#title_2 {
-    margin-top: 5%;
-}
-
-#info{
-    color: #FFF;
-    font-family: Inter;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    margin-top: 10%;
-    margin-right: 60%;
-    margin-left: 8.5%;   
+#columnas{
+    margin-left: 5%;
+    display: flex;
+    flex-direction:row;
+    gap: 20%;
 }
