@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(../Multimedia/Naves.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+a{
+    color: #FFF;
+    text-decoration-line: none;
+}
+#back{
+    color: #FFFF;
+    font-family: Inter;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration-line: underline;
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: 3%;
+    margin-right: 5%;
+}
+#title{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 5%;
+}
+#title_2{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: flex;
+    flex-direction: row;
+    gap: 25%;
+    margin-left: 20%;
+    margin-top: 5%;
+}
+#title_3{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: flex;
+    flex-direction: row;
+    gap: 25%;
+    margin-left: 20%;
+    margin-top: 5%;
+}
+#box{
+    display: flex;
+    flex-direction: row;
+    gap: 15%;
+    margin-left: 16%;
+    margin-top: 1%;
+}
+#sub_box_1{
+    width: 288px;
+    height: 145px;
+    background-image: url(../Multimedia/Naves/Espiritu.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#sub_box_2{
+    width: 316px;
+    height: 183px;
+    background-image: url(../Multimedia/Naves/Halcon\ Milenario.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#sub_box_3{
+    width: 306px;
+    height: 172px;
+    background-image: url(../Multimedia/Naves/Razor\ crest.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#sub_box_4{
+    width: 296px;
+    height: 191px;
+    background-image: url(../Multimedia/Naves/X\ wing.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#sub_box_5{
+    width: 222px;
+    height: 266px;
+    background-image: url(../Multimedia/Naves/Tie\ Fighter.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#sub_box_6{
+    width: 306px;
+    height: 203px;
+    background-image: url(../Multimedia/Naves/Destructor\ estelar.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}

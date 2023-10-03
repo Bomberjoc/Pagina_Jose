@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(../Multimedia/Planetas.jpg);
+    background-size: 150% ;
+    background-position-x: 50%;
+    background-position-y: 10%;
+    background-repeat: no-repeat;
+}
+a{
+    color: #FFF;
+    text-decoration-line: none;
+}
+#back{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration-line: underline;
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: 3%;
+    margin-right: 5%;
+}
+#title{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 5%;
+}
+#title_2{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 5%;
+    margin-left: 20%;
+    display: flex;
+    flex-direction: row;
+    gap: 17%;
+}
+#title_3{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 8%;
+    margin-left: 20%;
+    display: flex;
+    flex-direction: row;
+    gap: 18%;
+}
+#box{
+    display: flex;
+    flex-direction: row;
+    gap: 9%;
+    margin-left: 17%;
+    margin-top: 1%;
+    margin-bottom: 3%;
+}
+#sub_box_1{
+    width: 230px;
+    height: 230px;
+    background-color: #5858665b;
+    background-image: url(../Multimedia/Planetas/Tatooine.webp);
+    background-size: cover;
+    background-position: center;
+    background-repeat:no-repeat;
+}
+#sub_box_2{
+    width: 230px;
+    height: 230px;
+    background-color: #5858665b;
+    background-image: url(../Multimedia/Planetas/Alderaan.webp);
+    background-size: cover;
+    background-position: center;
+    background-repeat:no-repeat;
+}
+#sub_box_3{
+    width: 230px;
+    height: 230px;
+    background-color: #5858665b;
+    background-image: url(../Multimedia/Planetas/Coruscant.webp);
+    background-size: cover;
+    background-position: center;
+    background-repeat:no-repeat;
+}
+#sub_box_4{
+    width: 230px;
+    height: 230px;
+    background-color: #5858665b;
+    background-image: url(../Multimedia/Planetas/Yavin-4.webp);
+    background-size: cover;
+    background-position: center;
+    background-repeat:no-repeat;
+}
+#sub_box_5{
+    width: 230px;
+    height: 230px;
+    background-color: #5858665b;
+    background-image: url(../Multimedia/Planetas/Naboo.webp);
+    background-size: cover;
+    background-position: center;
+    background-repeat:no-repeat;
+}
+#sub_box_6{
+    width: 230px;
+    height: 230px;
+    background-color: #5858665b;
+    background-image: url(../Multimedia/Planetas/Kamino.webp);
+    background-size: cover;
+    background-position: center;
+    background-repeat:no-repeat;
+}
+#sub_box_7{
+    width: 230px;
+    height: 230px;
+    background-color: #5858665b;
+    background-image: url(../Multimedia/Planetas/Geonosis.webp);
+    background-size: cover;
+    background-position: center;
+    background-repeat:no-repeat;
+}
+#sub_box_8{
+    width: 230px;
+    height: 230px;
+    background-color: #5858665b;
+    background-image: url(../Multimedia/Planetas/Mustafar.webp);
+    background-size: cover;
+    background-position: center;
+    background-repeat:no-repeat;
+}

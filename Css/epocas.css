@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(../Multimedia/Epocas.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+a{
+    color: #FFF;
+    text-decoration-line: none;
+}
+#back{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration-line: underline;
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: 3%;
+    margin-right: 5%;
+}
+#title{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 5%;
+}
+#title_2{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: flex;
+    flex-direction: row;
+    gap: 40%;
+    margin-left: 22%;
+    margin-top: 7%;
+}
+#title_3{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: flex;
+    flex-direction: row;
+    gap: 43%;
+    margin-left: 22%;
+    margin-top: 7%;
+}
+.bla{
+    color: black;
+}
+#box{
+    display: flex;
+    flex-direction: row;
+    gap: 41%;
+    margin-left: 22%;
+}
+#sub_box_1{
+    width: 230px;
+    height: 230px;
+    background-color: #58586600;
+    background-image: url(../Multimedia/Epocas/Antigua\ republica.svg);
+    background-size: cover;
+    background-position: center;
+    background-repeat:no-repeat;
+}
+#sub_box_2{
+    width: 230px;
+    height: 230px;
+    background-color: #58586600;
+    background-image: url(../Multimedia/Epocas/Imperio\ Galactico.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat:no-repeat;
+}
+#sub_box_3{
+    width: 230px;
+    height: 230px;
+    background-color: #58586600;
+    background-image: url(../Multimedia/Epocas/Rebelion.svg);
+    background-size: cover;
+    background-position: center;
+    background-repeat:no-repeat;
+}
+#sub_box_4{
+    width: 230px;
+    height: 230px;
+    background-color: #58586600;
+    background-image: url(../Multimedia/Epocas/Nueva\ Republica.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat:no-repeat;
+}

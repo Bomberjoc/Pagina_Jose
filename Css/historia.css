@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(../Multimedia/Historia.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+a{
+    color: #000000;
+    text-decoration-line: none;
+}
+#back{
+    color: #000000;
+    font-family: Inter;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration-line: underline;
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: 3%;
+    margin-right: 5%;
+}
+#title{
+    color: #000000;
+    font-family: Inter;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 5%;
+}
+#title_2{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 5%;
+    margin-top: 3%;
+}
+#text{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 5% 5% 10% 5%;
+    border: 3px ridge rgba(192, 17, 11, 0.74);
+    border-radius: 20px;
+    padding: 5px;
+    background-color: #00000075;
+}
