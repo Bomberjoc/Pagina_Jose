@@ -48,6 +48,27 @@ a{
     display: flex;
     flex-direction: row;
     gap: 17%;
+
+    /* Para actualizar metele: */
+    /* justify-content: space-between; */
+
+
+    /* .contenedor{
+        display: flex;
+        justify-content: space-between;
+    }
+    .imagen{
+        background-color: black;
+    }
+    .nombre{
+        margin: 0;
+        text-align: center;
+        font-size: 40px;
+        background-color: black;
+        color: white;
+        box-shadow: 0px 10px 10px black;
+    } */
+
 }
 #title_3{
     color: #FFF;
