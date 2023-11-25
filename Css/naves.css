@@ -114,3 +114,9 @@ a{
     background-repeat: no-repeat;
     background-position: center;
 }
+
+.filas{
+    display: grid;
+    grid-template-columns: 4 1fr;
+    justify-content: space-around;    
+}
