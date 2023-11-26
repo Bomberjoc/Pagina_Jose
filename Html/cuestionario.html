@@ -5,17 +5,53 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cuestionario</title>
     <link rel="stylesheet" href="../Css/cuestionario.css">
+    <script src="../Java script/cuestionario.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <style>
+        a{
+    color: #FFF;
+    text-decoration-line: none;
+    }
+    .back{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration-line: underline;
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: 3%;
+    margin-right: 5%;
+    }
+    </style>
 </head>
-<body>
+<body onload="load_page()">
     <header>
-
+        <div class="back">
+            <a href="../index.html">Inicio</a>
+        </div>
     </header>
     <main>
         <div class="container">
-            <div class="title"><h2>Cuestionario ¿Qué tanto sabes de Star Wars?</h2></div>
+            <div class="title"><h1>Cuestionario ¿Qué tanto sabes de Star Wars?</h1></div>
             <div class="box">
-                
+                <div class="quest" id="quest">
+                    
+                </div>
+                <br><br><br><br>
+                <div class="answers">
+                    <input type="button" value="" id="answer1" onclick="res1()">
+                    <input type="button" value="" id="answer2" onclick="res2()">
+                    <input type="button" value="" id="answer3" onclick="res3()">
+                    <input type="button" value="" id="answer4" onclick="res4()">
+                </div>
+                <button id="reload" onclick="reload_page()">
+                    <h4>Reiniciar</h4>
+                </button>
             </div>
+
         </div>
     </main>
     <footer>

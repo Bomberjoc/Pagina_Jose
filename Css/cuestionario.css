@@ -6,9 +6,12 @@ body{
     display: grid;
     justify-content: center;
     height: 1vh;
+    background-image: url(../Multimedia/cuest.jpeg);
+    background-repeat: no-repeat;
+    background-size:auto;
 }
 .container{
-    border: 1px solid black;
+    /* border: 1px solid black; */
     width: 800px;
     height: 800px;
     display: flex;
@@ -18,11 +21,65 @@ body{
     gap: 30px;
 }
 .title{
-    color: rgb(161, 41, 41);
+    color: rgb(1, 4, 172);
+    background-color: rgba(255, 255, 255, 0.055)
     
 }
 .box{
-    border: 1px solid black;
+    /* border: 3px solid rgba(161, 73, 15, 0.404); */
     width: 400px;
     height: 400px;
+    display: flex;
+    flex-direction: column;
+
+    /* background-color: rgba(105, 76, 76, 0.233); */
+}
+.quest{
+    text-align: center;
+    margin-top: 45px;
+    color: red;
+    background-color: rgba(0, 0, 0, 0.671);
+    font-size: 15pt;
+}
+#reload{
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 100px;
+    background-color: rgba(255, 0, 0, 0.521);
+    color: rgb(255, 255, 255);
+}
+#reload:hover{
+    cursor: pointer;
+}
+.answers{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    padding: 20px;
+    
+}
+#answer1{
+    font-size: 12pt;
+}
+#answer2{
+    font-size: 12pt;
+}
+#answer3{
+    font-size: 12pt;
+}
+#answer4{
+    font-size: 12pt;
+}
+#answer1:hover{
+    cursor: pointer;
+
+}
+#answer2:hover{
+    cursor: pointer;
+}
+#answer3:hover{
+    cursor: pointer;
+}
+#answer4:hover{
+    cursor: pointer;
 }
