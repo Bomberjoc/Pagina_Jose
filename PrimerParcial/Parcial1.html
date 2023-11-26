@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primer Parcial</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            display: grid;
+            place-items: center;
+            height: 800px;
+        }
+        .container{
+            display: flex;
+            flex-direction: row;
+            gap: 150px;
+        }
+        .box{
+            box-shadow: 0px 4px 15px -3px rgba(0,0,0,0.56);
+            width: 225px;
+            height: 425px;
+            display: grid;
+            /* justify-content: center;
+            align-items: center; */
+            place-items: center;
+            padding: 5px;
+        }
+        img{
+            border-radius: 50%;
+            /* margin-left: 25%; */
+            margin-top: 20px;
+        }
+        .title{
+            display: grid;
+            margin-top: -50px;
+        }
+        .info{
+            text-align: center;
+            font-size: 13px;
+            
+        }
+        .logos{
+            display: flex;
+            flex-direction: row;
+            gap: 20px;
+        }
+        .rango{
+            display: grid;
+            justify-content: center;
+        }
+        a{
+            text-decoration-line: none;
+            font-size: 20px;
+            color: brown;
+        }
+    </style>
+</head>
+<body>
+    <a href="../index.html">Volver a el inicio</a>
+    <div class="container">
+        <div class="box">
+            <img  src="https://i.pinimg.com/550x/9a/dd/30/9add305bfd7c90cdd16f247759e9545d.jpg" alt="" height="100px">
+            <div class="title">
+                <h3>José R. Coronel</h3>
+                <div class="rango">Estudiante</div>
+            </div>
+            <div class="info">Me hace muy feliz poder compartir un cambio en sus vidas y actuar de manera positiva :)</div>
+            <div class="logos">
+                <img src="https://seeklogo.com/images/F/facebook-logo-264A8EFBA1-seeklogo.com.png" alt="" height="20px">
+                <img src="data:image/png;base64,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" alt="" width="20px">
+                <img src="https://w7.pngwing.com/pngs/914/758/png-transparent-github-social-media-computer-icons-logo-android-github-logo-computer-wallpaper-banner-thumbnail.png" alt="" height="20px">
+                <img src="https://w7.pngwing.com/pngs/274/823/png-transparent-icon-essential-instagram-2016-app-logo-vector-images-social-networks.png" alt="" height="20px">
+            </div>
+        </div>
+        <div class="box">
+            <img  src="https://i.pinimg.com/550x/9a/dd/30/9add305bfd7c90cdd16f247759e9545d.jpg" alt="" height="100px">
+            <div class="title">
+                <h3>José R. Coronel</h3>
+                <div class="rango">Estudiante</div>
+            </div>
+            <div class="info">Me hace muy feliz poder compartir un cambio en sus vidas y actuar de manera positiva :)</div>
+            <div class="logos">
+                <img src="https://seeklogo.com/images/F/facebook-logo-264A8EFBA1-seeklogo.com.png" alt="" height="20px">
+                <img src="data:image/png;base64,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" alt="" width="20px">
+                <img src="https://w7.pngwing.com/pngs/914/758/png-transparent-github-social-media-computer-icons-logo-android-github-logo-computer-wallpaper-banner-thumbnail.png" alt="" height="20px">
+                <img src="https://w7.pngwing.com/pngs/274/823/png-transparent-icon-essential-instagram-2016-app-logo-vector-images-social-networks.png" alt="" height="20px">
+            </div>
+        </div>
+    </div>
+</body>
+</html>

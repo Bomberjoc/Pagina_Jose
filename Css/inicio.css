@@ -33,7 +33,10 @@ a{
 }
 
 #title_2 {
+    display: flex;
+    justify-content: space-between;
     margin-top: 5%;
+    margin-right: 5%;
 }
 
 #info{
